@@ -14,8 +14,6 @@ BuildRequires:	cmake
 BuildRequires:	ninja
 BuildRequires:	rocm-runtime-devel
 
-ExclusiveArch:	%{x86_64} %{aarch64}
-
 %description
 libhsa-amd-aqlprofile64 implements the HSA AQL profile extension
 used by rocprofiler-sdk and rocprofv3.
