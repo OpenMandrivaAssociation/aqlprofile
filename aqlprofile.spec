@@ -49,6 +49,8 @@ if [ -d %{buildroot}/usr/lib ] && [ ! -e %{buildroot}%{_libdir}/libhsa-amd-aqlpr
 fi
 # Legacy NCCL-shaped header is not installed by upstream CMake.
 install -D -m644 inc/aql_profile.h %{buildroot}%{_includedir}/aql_profile.h
+# Upstream also dumps LICENSE under a different doc name.
+rm -rf %{buildroot}%{_docdir}/hsa-amd-aqlprofile
 
 %files
 %license LICENSE.md
