@@ -1,13 +1,13 @@
-# HSA AQL profiling extension. TheRock 10.0.
+# HSA AQL profiling extension. TheRock 10.1.
 
 Name:		aqlprofile
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	AMD HSA AQL profiling library
 License:	MIT
 Group:		System/Libraries
 URL:		https://github.com/ROCm/rocm-systems
-Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.0/aqlprofile.tar.gz#/aqlprofile-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.1/aqlprofile.tar.gz#/aqlprofile-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
